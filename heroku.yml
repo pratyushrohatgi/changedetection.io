@@ -2,4 +2,4 @@ build:
   docker:
     changedetection: Dockerfile
 run:
-  changedetection: python ./changedetection.py -d /datastore -p 5000
+  changedetection: python ./changedetection.py -d /datastore -p $PORT
