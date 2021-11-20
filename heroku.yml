@@ -1,5 +1,5 @@
 build:
   docker:
-    changedetection: Dockerfile
+    web: Dockerfile
 run:
-  changedetection: python ./changedetection.py -d /datastore -p $PORT
+  web: python ./changedetection.py -d /datastore -p $PORT
